@@ -1,0 +1,103 @@
+:root {
+    --main_bg: #2F4550;
+    --fiolet: #485696;
+    --kolor:#94a3b8;
+    --biały:#B8DBD9;
+    --kolor1: #586F7C;
+
+    /* sizes */
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
+
+body {
+    background-color: var(--main_bg);
+    font-family: 'General Sans', sans-serif;
+}
+
+
+.nav_sections{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+    margin: var(--size-base);
+}
+
+
+
+
+.nav_bar a{
+    text-decoration: none;
+    color: var(--biały);
+    font-weight: bold;
+    font-size: var(--size-base);
+    margin: var(--size-base);
+}
+
+.nav_bar a:hover{
+    color: var(--fiolet);
+}
+
+.tekst{
+    color: var(--biały);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+
+a {
+    color: var(--fiolet);
+}
+
+strong {
+    color: var(--kolor);
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--fiolet);
+    outline: 1px solid var(--fiolet);
+}

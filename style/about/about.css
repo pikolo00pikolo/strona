@@ -1,0 +1,41 @@
+@keyframes znikanie {
+    from{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+}
+
+
+
+
+.about--me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15ch;
+    height: 60ch;
+    color: white;
+    flex-direction: column;
+    font-size: 1.5rem;
+    animation: znikanie linear;
+    animation-timeline:view();
+}
+
+.about--omnie ul li{
+    list-style-type: '\1F44D';
+}
+
+@media (max-width: 730px) { /* Poprawka: zmieniono "width < 768" na "max-width: 768px" */
+    .about--me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15ch;
+        height: 60ch;
+        color: white;
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+}

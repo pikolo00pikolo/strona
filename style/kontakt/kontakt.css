@@ -1,0 +1,25 @@
+.kontakt{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-self: center;
+}
+
+.kontakt_dane{
+    display: flex;
+    align-content: center;
+    justify-content: center; flex-direction: row;
+    gap: 50px;
+}
+
+.kont{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.dzieki{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
